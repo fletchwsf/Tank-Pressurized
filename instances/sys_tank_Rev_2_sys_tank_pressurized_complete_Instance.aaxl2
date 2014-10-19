@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="ASCII"?>
+<instance:SystemInstance xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:instance="http://aadl.info/AADL/2.0/instance" xmi:id="_ZyxNIFClEeSHL6HpwW-5vA" name="sys_tank_pressurized_complete_Instance" category="system">
+  <systemImplementation href="../packages/sys_tank_Rev_2.aadl#sys_tank_Rev_2.sys_tank_pressurized.complete"/>
+</instance:SystemInstance>

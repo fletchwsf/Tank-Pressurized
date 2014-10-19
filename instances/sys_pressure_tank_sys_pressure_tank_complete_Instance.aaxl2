@@ -1,0 +1,397 @@
+<?xml version="1.0" encoding="ASCII"?>
+<instance:SystemInstance xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:aadl2="http://aadl.info/AADL/2.0" xmlns:instance="http://aadl.info/AADL/2.0/instance" xmi:id="_d4Ds0E8LEeSIS7kkH7O6SQ" name="sys_pressure_tank_complete_Instance" category="system">
+  <featureInstance xmi:id="_d5R03E8LEeSIS7kkH7O6SQ" name="fluidfromReservoir">
+    <feature xsi:type="aadl2:DataPort" href="../packages/sys_pressure_tank.aadl#//@ownedPublicSection/@ownedClassifier.0/@ownedDataPort.0"/>
+  </featureInstance>
+  <featureInstance xmi:id="_d5R03U8LEeSIS7kkH7O6SQ" name="fluidHighPressure" dstConnectionInstance="_d5ugxk8LEeSIS7kkH7O6SQ" direction="out">
+    <feature xsi:type="aadl2:DataPort" href="../packages/sys_pressure_tank.aadl#//@ownedPublicSection/@ownedClassifier.0/@ownedDataPort.1"/>
+  </featureInstance>
+  <featureInstance xmi:id="_d5R03k8LEeSIS7kkH7O6SQ" name="startCommand" category="eventPort">
+    <feature xsi:type="aadl2:EventPort" href="../packages/sys_pressure_tank.aadl#//@ownedPublicSection/@ownedClassifier.0/@ownedEventPort.0"/>
+  </featureInstance>
+  <featureInstance xmi:id="_d5R0308LEeSIS7kkH7O6SQ" name="OpenOutletValveCommand" category="eventPort">
+    <feature xsi:type="aadl2:EventPort" href="../packages/sys_pressure_tank.aadl#//@ownedPublicSection/@ownedClassifier.0/@ownedEventPort.1"/>
+  </featureInstance>
+  <componentInstance xmi:id="_d4r-8E8LEeSIS7kkH7O6SQ" name="ac120v" category="system">
+    <featureInstance xmi:id="_d4r-8U8LEeSIS7kkH7O6SQ" name="socket" srcConnectionInstance="_d5bl0E8LEeSIS7kkH7O6SQ" dstFlowSpec="_d41I4E8LEeSIS7kkH7O6SQ" direction="out">
+      <ownedPropertyAssociation xmi:id="_d6BbsE8LEeSIS7kkH7O6SQ">
+        <property href="../../Plugin_Resources/Data_Model.aadl#Data_Model.Data_Representation"/>
+        <ownedValue xmi:id="_d6BbsU8LEeSIS7kkH7O6SQ">
+          <ownedValue xsi:type="aadl2:NamedValue" xmi:id="_d6Bbsk8LEeSIS7kkH7O6SQ">
+            <namedValue xsi:type="aadl2:EnumerationLiteral" href="../../Plugin_Resources/Data_Model.aadl#//@ownedProperty.4/@ownedPropertyType/@ownedLiteral.1"/>
+          </ownedValue>
+        </ownedValue>
+      </ownedPropertyAssociation>
+      <feature xsi:type="aadl2:DataPort" href="../packages/power.aadl#//@ownedPublicSection/@ownedClassifier.0/@ownedDataPort.0"/>
+    </featureInstance>
+    <flowSpecification xmi:id="_d41I4E8LEeSIS7kkH7O6SQ" name="powerOnFlow" destination="_d4r-8U8LEeSIS7kkH7O6SQ">
+      <flowSpecification href="../packages/power.aadl#//@ownedPublicSection/@ownedClassifier.0/@ownedFlowSpecification.0"/>
+    </flowSpecification>
+    <subcomponent xsi:type="aadl2:SystemSubcomponent" href="../packages/sys_pressure_tank.aadl#//@ownedPublicSection/@ownedClassifier.1/@ownedSystemSubcomponent.0"/>
+    <index>0</index>
+  </componentInstance>
+  <componentInstance xmi:id="_d41I4U8LEeSIS7kkH7O6SQ" name="dc28v" category="system">
+    <featureInstance xmi:id="_d41I4k8LEeSIS7kkH7O6SQ" name="socket" srcConnectionInstance="_d5bl0k8LEeSIS7kkH7O6SQ _d5bl1E8LEeSIS7kkH7O6SQ" dstFlowSpec="_d41I408LEeSIS7kkH7O6SQ" direction="out">
+      <ownedPropertyAssociation xmi:id="_d6Bbs08LEeSIS7kkH7O6SQ">
+        <property href="../../Plugin_Resources/Data_Model.aadl#Data_Model.Data_Representation"/>
+        <ownedValue xmi:id="_d6BbtE8LEeSIS7kkH7O6SQ">
+          <ownedValue xsi:type="aadl2:NamedValue" xmi:id="_d6BbtU8LEeSIS7kkH7O6SQ">
+            <namedValue xsi:type="aadl2:EnumerationLiteral" href="../../Plugin_Resources/Data_Model.aadl#//@ownedProperty.4/@ownedPropertyType/@ownedLiteral.1"/>
+          </ownedValue>
+        </ownedValue>
+      </ownedPropertyAssociation>
+      <feature xsi:type="aadl2:DataPort" href="../packages/power.aadl#//@ownedPublicSection/@ownedClassifier.0/@ownedDataPort.0"/>
+    </featureInstance>
+    <flowSpecification xmi:id="_d41I408LEeSIS7kkH7O6SQ" name="powerOnFlow" destination="_d41I4k8LEeSIS7kkH7O6SQ">
+      <flowSpecification href="../packages/power.aadl#//@ownedPublicSection/@ownedClassifier.0/@ownedFlowSpecification.0"/>
+    </flowSpecification>
+    <subcomponent xsi:type="aadl2:SystemSubcomponent" href="../packages/sys_pressure_tank.aadl#//@ownedPublicSection/@ownedClassifier.1/@ownedSystemSubcomponent.1"/>
+    <index>0</index>
+  </componentInstance>
+  <componentInstance xmi:id="_d41I5E8LEeSIS7kkH7O6SQ" name="dcFuse" category="system">
+    <featureInstance xmi:id="_d41I5U8LEeSIS7kkH7O6SQ" name="powerIn" dstConnectionInstance="_d5bl0E8LEeSIS7kkH7O6SQ" srcFlowSpec="_d41I508LEeSIS7kkH7O6SQ">
+      <ownedPropertyAssociation xmi:id="_d6Bbtk8LEeSIS7kkH7O6SQ">
+        <property href="../../Plugin_Resources/Data_Model.aadl#Data_Model.Data_Representation"/>
+        <ownedValue xmi:id="_d6Bbt08LEeSIS7kkH7O6SQ">
+          <ownedValue xsi:type="aadl2:NamedValue" xmi:id="_d6BbuE8LEeSIS7kkH7O6SQ">
+            <namedValue xsi:type="aadl2:EnumerationLiteral" href="../../Plugin_Resources/Data_Model.aadl#//@ownedProperty.4/@ownedPropertyType/@ownedLiteral.1"/>
+          </ownedValue>
+        </ownedValue>
+      </ownedPropertyAssociation>
+      <feature xsi:type="aadl2:DataPort" href="../packages/fuse.aadl#//@ownedPublicSection/@ownedClassifier.0/@ownedDataPort.0"/>
+    </featureInstance>
+    <featureInstance xmi:id="_d41I5k8LEeSIS7kkH7O6SQ" name="powerOut" srcConnectionInstance="_d5bl1k8LEeSIS7kkH7O6SQ" dstFlowSpec="_d41I508LEeSIS7kkH7O6SQ" direction="out">
+      <ownedPropertyAssociation xmi:id="_d6BbuU8LEeSIS7kkH7O6SQ">
+        <property href="../../Plugin_Resources/Data_Model.aadl#Data_Model.Data_Representation"/>
+        <ownedValue xmi:id="_d6Bbuk8LEeSIS7kkH7O6SQ">
+          <ownedValue xsi:type="aadl2:NamedValue" xmi:id="_d6Bbu08LEeSIS7kkH7O6SQ">
+            <namedValue xsi:type="aadl2:EnumerationLiteral" href="../../Plugin_Resources/Data_Model.aadl#//@ownedProperty.4/@ownedPropertyType/@ownedLiteral.1"/>
+          </ownedValue>
+        </ownedValue>
+      </ownedPropertyAssociation>
+      <feature xsi:type="aadl2:DataPort" href="../packages/fuse.aadl#//@ownedPublicSection/@ownedClassifier.0/@ownedDataPort.1"/>
+    </featureInstance>
+    <flowSpecification xmi:id="_d41I508LEeSIS7kkH7O6SQ" name="powerOnFlowPath" source="_d41I5U8LEeSIS7kkH7O6SQ" destination="_d41I5k8LEeSIS7kkH7O6SQ">
+      <flowSpecification href="../packages/fuse.aadl#//@ownedPublicSection/@ownedClassifier.0/@ownedFlowSpecification.0"/>
+    </flowSpecification>
+    <subcomponent xsi:type="aadl2:SystemSubcomponent" href="../packages/sys_pressure_tank.aadl#//@ownedPublicSection/@ownedClassifier.1/@ownedSystemSubcomponent.2"/>
+    <index>0</index>
+  </componentInstance>
+  <componentInstance xmi:id="_d41I6E8LEeSIS7kkH7O6SQ" name="pump" category="system">
+    <featureInstance xmi:id="_d4-54E8LEeSIS7kkH7O6SQ" name="powerIn" dstConnectionInstance="_d5kvxE8LEeSIS7kkH7O6SQ" srcFlowSpec="_d4-5408LEeSIS7kkH7O6SQ">
+      <ownedPropertyAssociation xmi:id="_d6LMsE8LEeSIS7kkH7O6SQ">
+        <property href="../../Plugin_Resources/Data_Model.aadl#Data_Model.Data_Representation"/>
+        <ownedValue xmi:id="_d6LMsU8LEeSIS7kkH7O6SQ">
+          <ownedValue xsi:type="aadl2:NamedValue" xmi:id="_d6LMsk8LEeSIS7kkH7O6SQ">
+            <namedValue xsi:type="aadl2:EnumerationLiteral" href="../../Plugin_Resources/Data_Model.aadl#//@ownedProperty.4/@ownedPropertyType/@ownedLiteral.1"/>
+          </ownedValue>
+        </ownedValue>
+      </ownedPropertyAssociation>
+      <feature xsi:type="aadl2:DataPort" href="../packages/motor_pump.aadl#//@ownedPublicSection/@ownedClassifier.0/@ownedDataPort.0"/>
+    </featureInstance>
+    <featureInstance xmi:id="_d4-54U8LEeSIS7kkH7O6SQ" name="fluidIn" srcFlowSpec="_d4-55E8LEeSIS7kkH7O6SQ">
+      <ownedPropertyAssociation xmi:id="_d6LMs08LEeSIS7kkH7O6SQ">
+        <property href="../../Plugin_Resources/Data_Model.aadl#Data_Model.Data_Representation"/>
+        <ownedValue xmi:id="_d6LMtE8LEeSIS7kkH7O6SQ">
+          <ownedValue xsi:type="aadl2:NamedValue" xmi:id="_d6LMtU8LEeSIS7kkH7O6SQ">
+            <namedValue xsi:type="aadl2:EnumerationLiteral" href="../../Plugin_Resources/Data_Model.aadl#//@ownedProperty.4/@ownedPropertyType/@ownedLiteral.1"/>
+          </ownedValue>
+        </ownedValue>
+      </ownedPropertyAssociation>
+      <feature xsi:type="aadl2:DataPort" href="../packages/motor_pump.aadl#//@ownedPublicSection/@ownedClassifier.0/@ownedDataPort.1"/>
+    </featureInstance>
+    <featureInstance xmi:id="_d4-54k8LEeSIS7kkH7O6SQ" name="fluidOut" srcConnectionInstance="_d5kvwE8LEeSIS7kkH7O6SQ" dstFlowSpec="_d4-55E8LEeSIS7kkH7O6SQ" direction="out">
+      <ownedPropertyAssociation xmi:id="_d6LMtk8LEeSIS7kkH7O6SQ">
+        <property href="../../Plugin_Resources/Data_Model.aadl#Data_Model.Data_Representation"/>
+        <ownedValue xmi:id="_d6LMt08LEeSIS7kkH7O6SQ">
+          <ownedValue xsi:type="aadl2:NamedValue" xmi:id="_d6LMuE8LEeSIS7kkH7O6SQ">
+            <namedValue xsi:type="aadl2:EnumerationLiteral" href="../../Plugin_Resources/Data_Model.aadl#//@ownedProperty.4/@ownedPropertyType/@ownedLiteral.1"/>
+          </ownedValue>
+        </ownedValue>
+      </ownedPropertyAssociation>
+      <feature xsi:type="aadl2:DataPort" href="../packages/motor_pump.aadl#//@ownedPublicSection/@ownedClassifier.0/@ownedDataPort.2"/>
+    </featureInstance>
+    <flowSpecification xmi:id="_d4-5408LEeSIS7kkH7O6SQ" name="powerOnFlowPath" source="_d4-54E8LEeSIS7kkH7O6SQ">
+      <flowSpecification href="../packages/motor_pump.aadl#//@ownedPublicSection/@ownedClassifier.0/@ownedFlowSpecification.0"/>
+    </flowSpecification>
+    <flowSpecification xmi:id="_d4-55E8LEeSIS7kkH7O6SQ" name="fluidFlowPath" source="_d4-54U8LEeSIS7kkH7O6SQ" destination="_d4-54k8LEeSIS7kkH7O6SQ">
+      <flowSpecification href="../packages/motor_pump.aadl#//@ownedPublicSection/@ownedClassifier.0/@ownedFlowSpecification.1"/>
+    </flowSpecification>
+    <subcomponent xsi:type="aadl2:SystemSubcomponent" href="../packages/sys_pressure_tank.aadl#//@ownedPublicSection/@ownedClassifier.1/@ownedSystemSubcomponent.3"/>
+    <index>0</index>
+  </componentInstance>
+  <componentInstance xmi:id="_d4-55U8LEeSIS7kkH7O6SQ" name="k1" category="system">
+    <featureInstance xmi:id="_d4-55k8LEeSIS7kkH7O6SQ" name="signalIn" dstConnectionInstance="_d5kvwk8LEeSIS7kkH7O6SQ" srcFlowSpec="_d4-56k8LEeSIS7kkH7O6SQ">
+      <feature xsi:type="aadl2:DataPort" href="../packages/relay.aadl#//@ownedPublicSection/@ownedClassifier.0/@ownedDataPort.0"/>
+    </featureInstance>
+    <featureInstance xmi:id="_d4-5508LEeSIS7kkH7O6SQ" name="signalOut" dstFlowSpec="_d4-56k8LEeSIS7kkH7O6SQ" direction="out">
+      <feature xsi:type="aadl2:DataPort" href="../packages/relay.aadl#//@ownedPublicSection/@ownedClassifier.0/@ownedDataPort.1"/>
+    </featureInstance>
+    <featureInstance xmi:id="_d4-56E8LEeSIS7kkH7O6SQ" name="powerIn" dstConnectionInstance="_d5kvyE8LEeSIS7kkH7O6SQ" srcFlowSpec="_d4-5608LEeSIS7kkH7O6SQ">
+      <feature xsi:type="aadl2:DataPort" href="../packages/relay.aadl#//@ownedPublicSection/@ownedClassifier.0/@ownedDataPort.2"/>
+    </featureInstance>
+    <featureInstance xmi:id="_d4-56U8LEeSIS7kkH7O6SQ" name="powerOut" srcConnectionInstance="_d5kvwk8LEeSIS7kkH7O6SQ" dstFlowSpec="_d4-5608LEeSIS7kkH7O6SQ" direction="out">
+      <feature xsi:type="aadl2:DataPort" href="../packages/relay.aadl#//@ownedPublicSection/@ownedClassifier.0/@ownedDataPort.3"/>
+    </featureInstance>
+    <flowSpecification xmi:id="_d4-56k8LEeSIS7kkH7O6SQ" name="signalFlowPath" source="_d4-55k8LEeSIS7kkH7O6SQ" destination="_d4-5508LEeSIS7kkH7O6SQ">
+      <ownedPropertyAssociation xmi:id="_d6eHoE8LEeSIS7kkH7O6SQ">
+        <property href="../../Plugin_Resources/Communication_Properties.aadl#Communication_Properties.Latency"/>
+        <ownedValue xmi:id="_d6eHoU8LEeSIS7kkH7O6SQ">
+          <ownedValue xsi:type="aadl2:RangeValue" xmi:id="_d6eHok8LEeSIS7kkH7O6SQ">
+            <minimum xsi:type="aadl2:IntegerLiteral" xmi:id="_d6eHo08LEeSIS7kkH7O6SQ" value="400">
+              <unit href="../../Plugin_Resources/AADL_Project.aadl#//@ownedPropertyType.12/@ownedLiteral.3"/>
+            </minimum>
+            <maximum xsi:type="aadl2:IntegerLiteral" xmi:id="_d6eHpE8LEeSIS7kkH7O6SQ" value="600">
+              <unit href="../../Plugin_Resources/AADL_Project.aadl#//@ownedPropertyType.12/@ownedLiteral.3"/>
+            </maximum>
+          </ownedValue>
+        </ownedValue>
+      </ownedPropertyAssociation>
+      <flowSpecification href="../packages/relay.aadl#//@ownedPublicSection/@ownedClassifier.0/@ownedFlowSpecification.0"/>
+    </flowSpecification>
+    <flowSpecification xmi:id="_d4-5608LEeSIS7kkH7O6SQ" name="powerFlowPath" source="_d4-56E8LEeSIS7kkH7O6SQ" destination="_d4-56U8LEeSIS7kkH7O6SQ">
+      <ownedPropertyAssociation xmi:id="_d6eHpU8LEeSIS7kkH7O6SQ">
+        <property href="../../Plugin_Resources/Communication_Properties.aadl#Communication_Properties.Latency"/>
+        <ownedValue xmi:id="_d6eHpk8LEeSIS7kkH7O6SQ">
+          <ownedValue xsi:type="aadl2:RangeValue" xmi:id="_d6eHp08LEeSIS7kkH7O6SQ">
+            <minimum xsi:type="aadl2:IntegerLiteral" xmi:id="_d6eHqE8LEeSIS7kkH7O6SQ" value="1">
+              <unit href="../../Plugin_Resources/AADL_Project.aadl#//@ownedPropertyType.12/@ownedLiteral.3"/>
+            </minimum>
+            <maximum xsi:type="aadl2:IntegerLiteral" xmi:id="_d6eHqU8LEeSIS7kkH7O6SQ" value="2">
+              <unit href="../../Plugin_Resources/AADL_Project.aadl#//@ownedPropertyType.12/@ownedLiteral.3"/>
+            </maximum>
+          </ownedValue>
+        </ownedValue>
+      </ownedPropertyAssociation>
+      <flowSpecification href="../packages/relay.aadl#//@ownedPublicSection/@ownedClassifier.0/@ownedFlowSpecification.1"/>
+    </flowSpecification>
+    <subcomponent xsi:type="aadl2:SystemSubcomponent" href="../packages/sys_pressure_tank.aadl#//@ownedPublicSection/@ownedClassifier.1/@ownedSystemSubcomponent.4"/>
+    <index>0</index>
+  </componentInstance>
+  <componentInstance xmi:id="_d4-57E8LEeSIS7kkH7O6SQ" name="k2" category="system">
+    <featureInstance xmi:id="_d4-57U8LEeSIS7kkH7O6SQ" name="signalIn" dstConnectionInstance="_d5bl1k8LEeSIS7kkH7O6SQ" srcFlowSpec="_d5Iq4E8LEeSIS7kkH7O6SQ">
+      <feature xsi:type="aadl2:DataPort" href="../packages/relay.aadl#//@ownedPublicSection/@ownedClassifier.0/@ownedDataPort.0"/>
+    </featureInstance>
+    <featureInstance xmi:id="_d4-57k8LEeSIS7kkH7O6SQ" name="signalOut" srcConnectionInstance="_d5kvxE8LEeSIS7kkH7O6SQ" dstFlowSpec="_d5Iq4E8LEeSIS7kkH7O6SQ" direction="out">
+      <feature xsi:type="aadl2:DataPort" href="../packages/relay.aadl#//@ownedPublicSection/@ownedClassifier.0/@ownedDataPort.1"/>
+    </featureInstance>
+    <featureInstance xmi:id="_d4-5708LEeSIS7kkH7O6SQ" name="powerIn" dstConnectionInstance="_d5ugwE8LEeSIS7kkH7O6SQ" srcFlowSpec="_d5Iq4U8LEeSIS7kkH7O6SQ">
+      <feature xsi:type="aadl2:DataPort" href="../packages/relay.aadl#//@ownedPublicSection/@ownedClassifier.0/@ownedDataPort.2"/>
+    </featureInstance>
+    <featureInstance xmi:id="_d4-58E8LEeSIS7kkH7O6SQ" name="powerOut" srcConnectionInstance="_d5kvxk8LEeSIS7kkH7O6SQ" dstFlowSpec="_d5Iq4U8LEeSIS7kkH7O6SQ" direction="out">
+      <feature xsi:type="aadl2:DataPort" href="../packages/relay.aadl#//@ownedPublicSection/@ownedClassifier.0/@ownedDataPort.3"/>
+    </featureInstance>
+    <flowSpecification xmi:id="_d5Iq4E8LEeSIS7kkH7O6SQ" name="signalFlowPath" source="_d4-57U8LEeSIS7kkH7O6SQ" destination="_d4-57k8LEeSIS7kkH7O6SQ">
+      <ownedPropertyAssociation xmi:id="_d6eHqk8LEeSIS7kkH7O6SQ">
+        <property href="../../Plugin_Resources/Communication_Properties.aadl#Communication_Properties.Latency"/>
+        <ownedValue xmi:id="_d6eHq08LEeSIS7kkH7O6SQ">
+          <ownedValue xsi:type="aadl2:RangeValue" xmi:id="_d6eHrE8LEeSIS7kkH7O6SQ">
+            <minimum xsi:type="aadl2:IntegerLiteral" xmi:id="_d6eHrU8LEeSIS7kkH7O6SQ" value="400">
+              <unit href="../../Plugin_Resources/AADL_Project.aadl#//@ownedPropertyType.12/@ownedLiteral.3"/>
+            </minimum>
+            <maximum xsi:type="aadl2:IntegerLiteral" xmi:id="_d6eHrk8LEeSIS7kkH7O6SQ" value="600">
+              <unit href="../../Plugin_Resources/AADL_Project.aadl#//@ownedPropertyType.12/@ownedLiteral.3"/>
+            </maximum>
+          </ownedValue>
+        </ownedValue>
+      </ownedPropertyAssociation>
+      <flowSpecification href="../packages/relay.aadl#//@ownedPublicSection/@ownedClassifier.0/@ownedFlowSpecification.0"/>
+    </flowSpecification>
+    <flowSpecification xmi:id="_d5Iq4U8LEeSIS7kkH7O6SQ" name="powerFlowPath" source="_d4-5708LEeSIS7kkH7O6SQ" destination="_d4-58E8LEeSIS7kkH7O6SQ">
+      <ownedPropertyAssociation xmi:id="_d6n4oE8LEeSIS7kkH7O6SQ">
+        <property href="../../Plugin_Resources/Communication_Properties.aadl#Communication_Properties.Latency"/>
+        <ownedValue xmi:id="_d6n4oU8LEeSIS7kkH7O6SQ">
+          <ownedValue xsi:type="aadl2:RangeValue" xmi:id="_d6n4ok8LEeSIS7kkH7O6SQ">
+            <minimum xsi:type="aadl2:IntegerLiteral" xmi:id="_d6n4o08LEeSIS7kkH7O6SQ" value="1">
+              <unit href="../../Plugin_Resources/AADL_Project.aadl#//@ownedPropertyType.12/@ownedLiteral.3"/>
+            </minimum>
+            <maximum xsi:type="aadl2:IntegerLiteral" xmi:id="_d6n4pE8LEeSIS7kkH7O6SQ" value="2">
+              <unit href="../../Plugin_Resources/AADL_Project.aadl#//@ownedPropertyType.12/@ownedLiteral.3"/>
+            </maximum>
+          </ownedValue>
+        </ownedValue>
+      </ownedPropertyAssociation>
+      <flowSpecification href="../packages/relay.aadl#//@ownedPublicSection/@ownedClassifier.0/@ownedFlowSpecification.1"/>
+    </flowSpecification>
+    <subcomponent xsi:type="aadl2:SystemSubcomponent" href="../packages/sys_pressure_tank.aadl#//@ownedPublicSection/@ownedClassifier.1/@ownedSystemSubcomponent.5"/>
+    <index>0</index>
+  </componentInstance>
+  <componentInstance xmi:id="_d5Iq4k8LEeSIS7kkH7O6SQ" name="s1" category="system">
+    <featureInstance xmi:id="_d5Iq408LEeSIS7kkH7O6SQ" name="signalIn" dstConnectionInstance="_d5kvxk8LEeSIS7kkH7O6SQ" srcFlowSpec="_d5Iq5k8LEeSIS7kkH7O6SQ">
+      <feature xsi:type="aadl2:DataPort" href="../packages/switch.aadl#//@ownedPublicSection/@ownedClassifier.0/@ownedDataPort.0"/>
+    </featureInstance>
+    <featureInstance xmi:id="_d5Iq5E8LEeSIS7kkH7O6SQ" name="signalOut" dstFlowSpec="_d5Iq5k8LEeSIS7kkH7O6SQ" direction="out">
+      <feature xsi:type="aadl2:DataPort" href="../packages/switch.aadl#//@ownedPublicSection/@ownedClassifier.0/@ownedDataPort.1"/>
+    </featureInstance>
+    <featureInstance xmi:id="_d5Iq5U8LEeSIS7kkH7O6SQ" name="closeCommand" category="eventPort">
+      <feature xsi:type="aadl2:EventPort" href="../packages/switch.aadl#//@ownedPublicSection/@ownedClassifier.0/@ownedEventPort.0"/>
+    </featureInstance>
+    <flowSpecification xmi:id="_d5Iq5k8LEeSIS7kkH7O6SQ" name="signalFlowPath" source="_d5Iq408LEeSIS7kkH7O6SQ" destination="_d5Iq5E8LEeSIS7kkH7O6SQ">
+      <flowSpecification href="../packages/switch.aadl#//@ownedPublicSection/@ownedClassifier.0/@ownedFlowSpecification.0"/>
+    </flowSpecification>
+    <subcomponent xsi:type="aadl2:SystemSubcomponent" href="../packages/sys_pressure_tank.aadl#//@ownedPublicSection/@ownedClassifier.1/@ownedSystemSubcomponent.6"/>
+    <index>0</index>
+  </componentInstance>
+  <componentInstance xmi:id="_d5Iq508LEeSIS7kkH7O6SQ" name="timerRelay" category="system">
+    <featureInstance xmi:id="_d5Iq6E8LEeSIS7kkH7O6SQ" name="signalIn" dstConnectionInstance="_d5bl1E8LEeSIS7kkH7O6SQ" srcFlowSpec="_d5Iq7E8LEeSIS7kkH7O6SQ">
+      <feature xsi:type="aadl2:DataPort" href="../packages/relay.aadl#//@ownedPublicSection/@ownedClassifier.0/@ownedDataPort.0"/>
+    </featureInstance>
+    <featureInstance xmi:id="_d5Iq6U8LEeSIS7kkH7O6SQ" name="signalOut" srcConnectionInstance="_d5kvyE8LEeSIS7kkH7O6SQ" dstFlowSpec="_d5Iq7E8LEeSIS7kkH7O6SQ" direction="out">
+      <feature xsi:type="aadl2:DataPort" href="../packages/relay.aadl#//@ownedPublicSection/@ownedClassifier.0/@ownedDataPort.1"/>
+    </featureInstance>
+    <featureInstance xmi:id="_d5Iq6k8LEeSIS7kkH7O6SQ" name="powerIn" dstConnectionInstance="_d5ugyE8LEeSIS7kkH7O6SQ" srcFlowSpec="_d5Iq7U8LEeSIS7kkH7O6SQ">
+      <feature xsi:type="aadl2:DataPort" href="../packages/relay.aadl#//@ownedPublicSection/@ownedClassifier.0/@ownedDataPort.2"/>
+    </featureInstance>
+    <featureInstance xmi:id="_d5Iq608LEeSIS7kkH7O6SQ" name="powerOut" srcConnectionInstance="_d5ugwE8LEeSIS7kkH7O6SQ" dstFlowSpec="_d5Iq7U8LEeSIS7kkH7O6SQ" direction="out">
+      <feature xsi:type="aadl2:DataPort" href="../packages/relay.aadl#//@ownedPublicSection/@ownedClassifier.0/@ownedDataPort.3"/>
+    </featureInstance>
+    <flowSpecification xmi:id="_d5Iq7E8LEeSIS7kkH7O6SQ" name="signalFlowPath" source="_d5Iq6E8LEeSIS7kkH7O6SQ" destination="_d5Iq6U8LEeSIS7kkH7O6SQ">
+      <ownedPropertyAssociation xmi:id="_d6n4pU8LEeSIS7kkH7O6SQ">
+        <property href="../../Plugin_Resources/Communication_Properties.aadl#Communication_Properties.Latency"/>
+        <ownedValue xmi:id="_d6n4pk8LEeSIS7kkH7O6SQ">
+          <ownedValue xsi:type="aadl2:RangeValue" xmi:id="_d6n4p08LEeSIS7kkH7O6SQ">
+            <minimum xsi:type="aadl2:IntegerLiteral" xmi:id="_d6n4qE8LEeSIS7kkH7O6SQ" value="400">
+              <unit href="../../Plugin_Resources/AADL_Project.aadl#//@ownedPropertyType.12/@ownedLiteral.3"/>
+            </minimum>
+            <maximum xsi:type="aadl2:IntegerLiteral" xmi:id="_d6n4qU8LEeSIS7kkH7O6SQ" value="600">
+              <unit href="../../Plugin_Resources/AADL_Project.aadl#//@ownedPropertyType.12/@ownedLiteral.3"/>
+            </maximum>
+          </ownedValue>
+        </ownedValue>
+      </ownedPropertyAssociation>
+      <flowSpecification href="../packages/relay.aadl#//@ownedPublicSection/@ownedClassifier.0/@ownedFlowSpecification.0"/>
+    </flowSpecification>
+    <flowSpecification xmi:id="_d5Iq7U8LEeSIS7kkH7O6SQ" name="powerFlowPath" source="_d5Iq6k8LEeSIS7kkH7O6SQ" destination="_d5Iq608LEeSIS7kkH7O6SQ">
+      <ownedPropertyAssociation xmi:id="_d6n4qk8LEeSIS7kkH7O6SQ">
+        <property href="../../Plugin_Resources/Communication_Properties.aadl#Communication_Properties.Latency"/>
+        <ownedValue xmi:id="_d6n4q08LEeSIS7kkH7O6SQ">
+          <ownedValue xsi:type="aadl2:RangeValue" xmi:id="_d6n4rE8LEeSIS7kkH7O6SQ">
+            <minimum xsi:type="aadl2:IntegerLiteral" xmi:id="_d6n4rU8LEeSIS7kkH7O6SQ" value="1">
+              <unit href="../../Plugin_Resources/AADL_Project.aadl#//@ownedPropertyType.12/@ownedLiteral.3"/>
+            </minimum>
+            <maximum xsi:type="aadl2:IntegerLiteral" xmi:id="_d6n4rk8LEeSIS7kkH7O6SQ" value="2">
+              <unit href="../../Plugin_Resources/AADL_Project.aadl#//@ownedPropertyType.12/@ownedLiteral.3"/>
+            </maximum>
+          </ownedValue>
+        </ownedValue>
+      </ownedPropertyAssociation>
+      <flowSpecification href="../packages/relay.aadl#//@ownedPublicSection/@ownedClassifier.0/@ownedFlowSpecification.1"/>
+    </flowSpecification>
+    <subcomponent xsi:type="aadl2:SystemSubcomponent" href="../packages/sys_pressure_tank.aadl#//@ownedPublicSection/@ownedClassifier.1/@ownedSystemSubcomponent.7"/>
+    <index>0</index>
+  </componentInstance>
+  <componentInstance xmi:id="_d5Iq7k8LEeSIS7kkH7O6SQ" name="tank_pressurized" category="system">
+    <featureInstance xmi:id="_d5R00E8LEeSIS7kkH7O6SQ" name="flowIn" dstConnectionInstance="_d5kvwE8LEeSIS7kkH7O6SQ">
+      <feature xsi:type="aadl2:DataPort" href="../packages/tank.aadl#//@ownedPublicSection/@ownedClassifier.0/@ownedDataPort.0"/>
+    </featureInstance>
+    <featureInstance xmi:id="_d5R00U8LEeSIS7kkH7O6SQ" name="flowOut" srcConnectionInstance="_d5ugwk8LEeSIS7kkH7O6SQ" direction="out">
+      <feature xsi:type="aadl2:DataPort" href="../packages/tank.aadl#//@ownedPublicSection/@ownedClassifier.0/@ownedDataPort.1"/>
+    </featureInstance>
+    <featureInstance xmi:id="_d5R00k8LEeSIS7kkH7O6SQ" name="pressurSignalOut" srcConnectionInstance="_d5ugxE8LEeSIS7kkH7O6SQ" direction="out">
+      <feature xsi:type="aadl2:DataPort" href="../packages/tank.aadl#//@ownedPublicSection/@ownedClassifier.0/@ownedDataPort.2"/>
+    </featureInstance>
+    <subcomponent xsi:type="aadl2:SystemSubcomponent" href="../packages/sys_pressure_tank.aadl#//@ownedPublicSection/@ownedClassifier.1/@ownedSystemSubcomponent.8"/>
+    <index>0</index>
+  </componentInstance>
+  <componentInstance xmi:id="_d5R0008LEeSIS7kkH7O6SQ" name="outletValve" category="system">
+    <featureInstance xmi:id="_d5R01E8LEeSIS7kkH7O6SQ" name="flowIn" dstConnectionInstance="_d5ugwk8LEeSIS7kkH7O6SQ">
+      <feature xsi:type="aadl2:DataPort" href="../packages/valve.aadl#//@ownedPublicSection/@ownedClassifier.0/@ownedDataPort.0"/>
+    </featureInstance>
+    <featureInstance xmi:id="_d5R01U8LEeSIS7kkH7O6SQ" name="flowOut" srcConnectionInstance="_d5ugxk8LEeSIS7kkH7O6SQ" direction="out">
+      <feature xsi:type="aadl2:DataPort" href="../packages/valve.aadl#//@ownedPublicSection/@ownedClassifier.0/@ownedDataPort.1"/>
+    </featureInstance>
+    <featureInstance xmi:id="_d5R01k8LEeSIS7kkH7O6SQ" name="openCommand" category="eventPort">
+      <feature xsi:type="aadl2:EventPort" href="../packages/valve.aadl#//@ownedPublicSection/@ownedClassifier.0/@ownedEventPort.0"/>
+    </featureInstance>
+    <subcomponent xsi:type="aadl2:SystemSubcomponent" href="../packages/sys_pressure_tank.aadl#//@ownedPublicSection/@ownedClassifier.1/@ownedSystemSubcomponent.9"/>
+    <index>0</index>
+  </componentInstance>
+  <componentInstance xmi:id="_d5R0108LEeSIS7kkH7O6SQ" name="tankPressureSwitch" category="system">
+    <featureInstance xmi:id="_d5R02E8LEeSIS7kkH7O6SQ" name="signalIn" dstConnectionInstance="_d5bl0k8LEeSIS7kkH7O6SQ" srcFlowSpec="_d5R0208LEeSIS7kkH7O6SQ">
+      <feature xsi:type="aadl2:DataPort" href="../packages/pressureSwitch.aadl#//@ownedPublicSection/@ownedClassifier.0/@ownedDataPort.0"/>
+    </featureInstance>
+    <featureInstance xmi:id="_d5R02U8LEeSIS7kkH7O6SQ" name="signalOut" srcConnectionInstance="_d5ugyE8LEeSIS7kkH7O6SQ" dstFlowSpec="_d5R0208LEeSIS7kkH7O6SQ" direction="out">
+      <feature xsi:type="aadl2:DataPort" href="../packages/pressureSwitch.aadl#//@ownedPublicSection/@ownedClassifier.0/@ownedDataPort.1"/>
+    </featureInstance>
+    <featureInstance xmi:id="_d5R02k8LEeSIS7kkH7O6SQ" name="pressureSignalIn" dstConnectionInstance="_d5ugxE8LEeSIS7kkH7O6SQ">
+      <feature xsi:type="aadl2:DataPort" href="../packages/pressureSwitch.aadl#//@ownedPublicSection/@ownedClassifier.0/@ownedDataPort.2"/>
+    </featureInstance>
+    <flowSpecification xmi:id="_d5R0208LEeSIS7kkH7O6SQ" name="signalFlowPath" source="_d5R02E8LEeSIS7kkH7O6SQ" destination="_d5R02U8LEeSIS7kkH7O6SQ">
+      <flowSpecification href="../packages/pressureSwitch.aadl#//@ownedPublicSection/@ownedClassifier.0/@ownedFlowSpecification.0"/>
+    </flowSpecification>
+    <subcomponent xsi:type="aadl2:SystemSubcomponent" href="../packages/sys_pressure_tank.aadl#//@ownedPublicSection/@ownedClassifier.1/@ownedSystemSubcomponent.10"/>
+    <index>0</index>
+  </componentInstance>
+  <connectionInstance xmi:id="_d5bl0E8LEeSIS7kkH7O6SQ" name="ac120v.socket -> dcFuse.powerIn" complete="true" kind="portConnection" destination="_d41I5U8LEeSIS7kkH7O6SQ" source="_d4r-8U8LEeSIS7kkH7O6SQ">
+    <connectionReference xmi:id="_d5bl0U8LEeSIS7kkH7O6SQ" context="_d4Ds0E8LEeSIS7kkH7O6SQ" source="_d4r-8U8LEeSIS7kkH7O6SQ" destination="_d41I5U8LEeSIS7kkH7O6SQ">
+      <connection xsi:type="aadl2:PortConnection" href="../packages/sys_pressure_tank.aadl#//@ownedPublicSection/@ownedClassifier.1/@ownedPortConnection.2"/>
+    </connectionReference>
+  </connectionInstance>
+  <connectionInstance xmi:id="_d5bl0k8LEeSIS7kkH7O6SQ" name="dc28v.socket -> tankPressureSwitch.signalIn" complete="true" kind="portConnection" destination="_d5R02E8LEeSIS7kkH7O6SQ" source="_d41I4k8LEeSIS7kkH7O6SQ">
+    <connectionReference xmi:id="_d5bl008LEeSIS7kkH7O6SQ" context="_d4Ds0E8LEeSIS7kkH7O6SQ" source="_d41I4k8LEeSIS7kkH7O6SQ" destination="_d5R02E8LEeSIS7kkH7O6SQ">
+      <connection xsi:type="aadl2:PortConnection" href="../packages/sys_pressure_tank.aadl#//@ownedPublicSection/@ownedClassifier.1/@ownedPortConnection.10"/>
+    </connectionReference>
+  </connectionInstance>
+  <connectionInstance xmi:id="_d5bl1E8LEeSIS7kkH7O6SQ" name="dc28v.socket -> timerRelay.signalIn" complete="true" kind="portConnection" destination="_d5Iq6E8LEeSIS7kkH7O6SQ" source="_d41I4k8LEeSIS7kkH7O6SQ">
+    <connectionReference xmi:id="_d5bl1U8LEeSIS7kkH7O6SQ" context="_d4Ds0E8LEeSIS7kkH7O6SQ" source="_d41I4k8LEeSIS7kkH7O6SQ" destination="_d5Iq6E8LEeSIS7kkH7O6SQ">
+      <connection xsi:type="aadl2:PortConnection" href="../packages/sys_pressure_tank.aadl#//@ownedPublicSection/@ownedClassifier.1/@ownedPortConnection.14"/>
+    </connectionReference>
+  </connectionInstance>
+  <connectionInstance xmi:id="_d5bl1k8LEeSIS7kkH7O6SQ" name="dcFuse.powerOut -> k2.signalIn" complete="true" kind="portConnection" destination="_d4-57U8LEeSIS7kkH7O6SQ" source="_d41I5k8LEeSIS7kkH7O6SQ">
+    <connectionReference xmi:id="_d5bl108LEeSIS7kkH7O6SQ" context="_d4Ds0E8LEeSIS7kkH7O6SQ" source="_d41I5k8LEeSIS7kkH7O6SQ" destination="_d4-57U8LEeSIS7kkH7O6SQ">
+      <connection xsi:type="aadl2:PortConnection" href="../packages/sys_pressure_tank.aadl#//@ownedPublicSection/@ownedClassifier.1/@ownedPortConnection.8"/>
+    </connectionReference>
+  </connectionInstance>
+  <connectionInstance xmi:id="_d5kvwE8LEeSIS7kkH7O6SQ" name="pump.fluidOut -> tank_pressurized.flowIn" complete="true" kind="portConnection" destination="_d5R00E8LEeSIS7kkH7O6SQ" source="_d4-54k8LEeSIS7kkH7O6SQ">
+    <connectionReference xmi:id="_d5kvwU8LEeSIS7kkH7O6SQ" context="_d4Ds0E8LEeSIS7kkH7O6SQ" source="_d4-54k8LEeSIS7kkH7O6SQ" destination="_d5R00E8LEeSIS7kkH7O6SQ">
+      <connection xsi:type="aadl2:PortConnection" href="../packages/sys_pressure_tank.aadl#//@ownedPublicSection/@ownedClassifier.1/@ownedPortConnection.0"/>
+    </connectionReference>
+  </connectionInstance>
+  <connectionInstance xmi:id="_d5kvwk8LEeSIS7kkH7O6SQ" name="k1.powerOut -> k1.signalIn" complete="true" kind="portConnection" destination="_d4-55k8LEeSIS7kkH7O6SQ" source="_d4-56U8LEeSIS7kkH7O6SQ">
+    <connectionReference xmi:id="_d5kvw08LEeSIS7kkH7O6SQ" context="_d4Ds0E8LEeSIS7kkH7O6SQ" source="_d4-56U8LEeSIS7kkH7O6SQ" destination="_d4-55k8LEeSIS7kkH7O6SQ">
+      <connection xsi:type="aadl2:PortConnection" href="../packages/sys_pressure_tank.aadl#//@ownedPublicSection/@ownedClassifier.1/@ownedPortConnection.16"/>
+    </connectionReference>
+  </connectionInstance>
+  <connectionInstance xmi:id="_d5kvxE8LEeSIS7kkH7O6SQ" name="k2.signalOut -> pump.powerIn" complete="true" kind="portConnection" destination="_d4-54E8LEeSIS7kkH7O6SQ" source="_d4-57k8LEeSIS7kkH7O6SQ">
+    <connectionReference xmi:id="_d5kvxU8LEeSIS7kkH7O6SQ" context="_d4Ds0E8LEeSIS7kkH7O6SQ" source="_d4-57k8LEeSIS7kkH7O6SQ" destination="_d4-54E8LEeSIS7kkH7O6SQ">
+      <connection xsi:type="aadl2:PortConnection" href="../packages/sys_pressure_tank.aadl#//@ownedPublicSection/@ownedClassifier.1/@ownedPortConnection.9"/>
+    </connectionReference>
+  </connectionInstance>
+  <connectionInstance xmi:id="_d5kvxk8LEeSIS7kkH7O6SQ" name="k2.powerOut -> s1.signalIn" complete="true" kind="portConnection" destination="_d5Iq408LEeSIS7kkH7O6SQ" source="_d4-58E8LEeSIS7kkH7O6SQ">
+    <connectionReference xmi:id="_d5kvx08LEeSIS7kkH7O6SQ" context="_d4Ds0E8LEeSIS7kkH7O6SQ" source="_d4-58E8LEeSIS7kkH7O6SQ" destination="_d5Iq408LEeSIS7kkH7O6SQ">
+      <connection xsi:type="aadl2:PortConnection" href="../packages/sys_pressure_tank.aadl#//@ownedPublicSection/@ownedClassifier.1/@ownedPortConnection.13"/>
+    </connectionReference>
+  </connectionInstance>
+  <connectionInstance xmi:id="_d5kvyE8LEeSIS7kkH7O6SQ" name="timerRelay.signalOut -> k1.powerIn" complete="true" kind="portConnection" destination="_d4-56E8LEeSIS7kkH7O6SQ" source="_d5Iq6U8LEeSIS7kkH7O6SQ">
+    <connectionReference xmi:id="_d5kvyU8LEeSIS7kkH7O6SQ" context="_d4Ds0E8LEeSIS7kkH7O6SQ" source="_d5Iq6U8LEeSIS7kkH7O6SQ" destination="_d4-56E8LEeSIS7kkH7O6SQ">
+      <connection xsi:type="aadl2:PortConnection" href="../packages/sys_pressure_tank.aadl#//@ownedPublicSection/@ownedClassifier.1/@ownedPortConnection.15"/>
+    </connectionReference>
+  </connectionInstance>
+  <connectionInstance xmi:id="_d5ugwE8LEeSIS7kkH7O6SQ" name="timerRelay.powerOut -> k2.powerIn" complete="true" kind="portConnection" destination="_d4-5708LEeSIS7kkH7O6SQ" source="_d5Iq608LEeSIS7kkH7O6SQ">
+    <connectionReference xmi:id="_d5ugwU8LEeSIS7kkH7O6SQ" context="_d4Ds0E8LEeSIS7kkH7O6SQ" source="_d5Iq608LEeSIS7kkH7O6SQ" destination="_d4-5708LEeSIS7kkH7O6SQ">
+      <connection xsi:type="aadl2:PortConnection" href="../packages/sys_pressure_tank.aadl#//@ownedPublicSection/@ownedClassifier.1/@ownedPortConnection.12"/>
+    </connectionReference>
+  </connectionInstance>
+  <connectionInstance xmi:id="_d5ugwk8LEeSIS7kkH7O6SQ" name="tank_pressurized.flowOut -> outletValve.flowIn" complete="true" kind="portConnection" destination="_d5R01E8LEeSIS7kkH7O6SQ" source="_d5R00U8LEeSIS7kkH7O6SQ">
+    <connectionReference xmi:id="_d5ugw08LEeSIS7kkH7O6SQ" context="_d4Ds0E8LEeSIS7kkH7O6SQ" source="_d5R00U8LEeSIS7kkH7O6SQ" destination="_d5R01E8LEeSIS7kkH7O6SQ">
+      <connection xsi:type="aadl2:PortConnection" href="../packages/sys_pressure_tank.aadl#//@ownedPublicSection/@ownedClassifier.1/@ownedPortConnection.1"/>
+    </connectionReference>
+  </connectionInstance>
+  <connectionInstance xmi:id="_d5ugxE8LEeSIS7kkH7O6SQ" name="tank_pressurized.pressurSignalOut -> tankPressureSwitch.pressureSignalIn" complete="true" kind="portConnection" destination="_d5R02k8LEeSIS7kkH7O6SQ" source="_d5R00k8LEeSIS7kkH7O6SQ">
+    <connectionReference xmi:id="_d5ugxU8LEeSIS7kkH7O6SQ" context="_d4Ds0E8LEeSIS7kkH7O6SQ" source="_d5R00k8LEeSIS7kkH7O6SQ" destination="_d5R02k8LEeSIS7kkH7O6SQ">
+      <connection xsi:type="aadl2:PortConnection" href="../packages/sys_pressure_tank.aadl#//@ownedPublicSection/@ownedClassifier.1/@ownedPortConnection.7"/>
+    </connectionReference>
+  </connectionInstance>
+  <connectionInstance xmi:id="_d5ugxk8LEeSIS7kkH7O6SQ" name="outletValve.flowOut -> fluidHighPressure" kind="portConnection" destination="_d5R03U8LEeSIS7kkH7O6SQ" source="_d5R01U8LEeSIS7kkH7O6SQ">
+    <connectionReference xmi:id="_d5ugx08LEeSIS7kkH7O6SQ" context="_d4Ds0E8LEeSIS7kkH7O6SQ" source="_d5R01U8LEeSIS7kkH7O6SQ" destination="_d5R03U8LEeSIS7kkH7O6SQ">
+      <connection xsi:type="aadl2:PortConnection" href="../packages/sys_pressure_tank.aadl#//@ownedPublicSection/@ownedClassifier.1/@ownedPortConnection.6"/>
+    </connectionReference>
+  </connectionInstance>
+  <connectionInstance xmi:id="_d5ugyE8LEeSIS7kkH7O6SQ" name="tankPressureSwitch.signalOut -> timerRelay.powerIn" complete="true" kind="portConnection" destination="_d5Iq6k8LEeSIS7kkH7O6SQ" source="_d5R02U8LEeSIS7kkH7O6SQ">
+    <connectionReference xmi:id="_d5ugyU8LEeSIS7kkH7O6SQ" context="_d4Ds0E8LEeSIS7kkH7O6SQ" source="_d5R02U8LEeSIS7kkH7O6SQ" destination="_d5Iq6k8LEeSIS7kkH7O6SQ">
+      <connection xsi:type="aadl2:PortConnection" href="../packages/sys_pressure_tank.aadl#//@ownedPublicSection/@ownedClassifier.1/@ownedPortConnection.11"/>
+    </connectionReference>
+  </connectionInstance>
+  <systemOperationMode xmi:id="_d5R04E8LEeSIS7kkH7O6SQ" name="No Modes"/>
+  <systemImplementation href="../packages/sys_pressure_tank.aadl#sys_pressure_tank.sys_pressure_tank.complete"/>
+</instance:SystemInstance>
