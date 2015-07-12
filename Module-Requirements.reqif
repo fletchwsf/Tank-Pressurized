@@ -1,0 +1,570 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<REQ-IF xmlns="http://www.omg.org/spec/ReqIF/20110401/reqif.xsd" xmlns:configuration="http://eclipse.org/rmf/pror/toolextensions/1.0">
+  <THE-HEADER>
+    <REQ-IF-HEADER IDENTIFIER="rmf-5bdba589-a9ba-4954-aeda-f6d285130786">
+      <COMMENT>Created by: Will</COMMENT>
+      <CREATION-TIME>2015-07-12T17:42:22.883-04:00</CREATION-TIME>
+      <REQ-IF-TOOL-ID>ProR (http://pror.org)</REQ-IF-TOOL-ID>
+      <REQ-IF-VERSION>1.0.1</REQ-IF-VERSION>
+      <SOURCE-TOOL-ID>ProR (http://pror.org)</SOURCE-TOOL-ID>
+    </REQ-IF-HEADER>
+  </THE-HEADER>
+  <CORE-CONTENT>
+    <REQ-IF-CONTENT>
+      <DATATYPES>
+        <DATATYPE-DEFINITION-STRING IDENTIFIER="_4R-MIijeEeWM0-PFTmf3uQ" LAST-CHANGE="2015-07-12T17:42:22.883-04:00" LONG-NAME="T_String32k" MAX-LENGTH="32000"/>
+      </DATATYPES>
+      <SPEC-TYPES>
+        <SPEC-OBJECT-TYPE IDENTIFIER="_4R-MIyjeEeWM0-PFTmf3uQ" LAST-CHANGE="2015-07-12T17:42:22.883-04:00" LONG-NAME="Requirement Type">
+          <SPEC-ATTRIBUTES>
+            <ATTRIBUTE-DEFINITION-STRING IDENTIFIER="_4R-MJCjeEeWM0-PFTmf3uQ" LAST-CHANGE="2015-07-12T17:42:22.883-04:00" LONG-NAME="Description">
+              <TYPE>
+                <DATATYPE-DEFINITION-STRING-REF>_4R-MIijeEeWM0-PFTmf3uQ</DATATYPE-DEFINITION-STRING-REF>
+              </TYPE>
+            </ATTRIBUTE-DEFINITION-STRING>
+          </SPEC-ATTRIBUTES>
+        </SPEC-OBJECT-TYPE>
+        <SPECIFICATION-TYPE IDENTIFIER="_4R-MJSjeEeWM0-PFTmf3uQ" LAST-CHANGE="2015-07-12T17:42:22.883-04:00" LONG-NAME="Specification Type">
+          <SPEC-ATTRIBUTES>
+            <ATTRIBUTE-DEFINITION-STRING IDENTIFIER="_4R-MJijeEeWM0-PFTmf3uQ" LAST-CHANGE="2015-07-12T17:42:22.883-04:00" LONG-NAME="Description">
+              <TYPE>
+                <DATATYPE-DEFINITION-STRING-REF>_4R-MIijeEeWM0-PFTmf3uQ</DATATYPE-DEFINITION-STRING-REF>
+              </TYPE>
+            </ATTRIBUTE-DEFINITION-STRING>
+          </SPEC-ATTRIBUTES>
+        </SPECIFICATION-TYPE>
+      </SPEC-TYPES>
+      <SPEC-OBJECTS>
+        <SPEC-OBJECT IDENTIFIER="_4R-zMCjeEeWM0-PFTmf3uQ" LAST-CHANGE="2015-07-12T17:44:37.294-04:00">
+          <VALUES>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="Pressure switch&#x9;">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_4R-MJCjeEeWM0-PFTmf3uQ</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+          </VALUES>
+          <TYPE>
+            <SPEC-OBJECT-TYPE-REF>_4R-MIyjeEeWM0-PFTmf3uQ</SPEC-OBJECT-TYPE-REF>
+          </TYPE>
+        </SPEC-OBJECT>
+        <SPEC-OBJECT IDENTIFIER="_Nm7XgCjfEeWM0-PFTmf3uQ" LAST-CHANGE="2015-07-12T17:44:37.324-04:00">
+          <VALUES>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="Input">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_4R-MJCjeEeWM0-PFTmf3uQ</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+          </VALUES>
+          <TYPE>
+            <SPEC-OBJECT-TYPE-REF>_4R-MIyjeEeWM0-PFTmf3uQ</SPEC-OBJECT-TYPE-REF>
+          </TYPE>
+        </SPEC-OBJECT>
+        <SPEC-OBJECT IDENTIFIER="_QqhEUCjfEeWM0-PFTmf3uQ" LAST-CHANGE="2015-07-12T17:44:59.643-04:00">
+          <VALUES>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="Processing">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_4R-MJCjeEeWM0-PFTmf3uQ</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+          </VALUES>
+          <TYPE>
+            <SPEC-OBJECT-TYPE-REF>_4R-MIyjeEeWM0-PFTmf3uQ</SPEC-OBJECT-TYPE-REF>
+          </TYPE>
+        </SPEC-OBJECT>
+        <SPEC-OBJECT IDENTIFIER="_TVKssCjfEeWM0-PFTmf3uQ" LAST-CHANGE="2015-07-12T17:45:20.430-04:00">
+          <VALUES>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="Output">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_4R-MJCjeEeWM0-PFTmf3uQ</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+          </VALUES>
+          <TYPE>
+            <SPEC-OBJECT-TYPE-REF>_4R-MIyjeEeWM0-PFTmf3uQ</SPEC-OBJECT-TYPE-REF>
+          </TYPE>
+        </SPEC-OBJECT>
+        <SPEC-OBJECT IDENTIFIER="_Y7Kr4CjfEeWM0-PFTmf3uQ" LAST-CHANGE="2015-07-12T18:02:39.739-04:00">
+          <VALUES>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="Safety Requirements">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_4R-MJCjeEeWM0-PFTmf3uQ</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+          </VALUES>
+          <TYPE>
+            <SPEC-OBJECT-TYPE-REF>_4R-MIyjeEeWM0-PFTmf3uQ</SPEC-OBJECT-TYPE-REF>
+          </TYPE>
+        </SPEC-OBJECT>
+        <SPEC-OBJECT IDENTIFIER="_e9ieACjfEeWM0-PFTmf3uQ" LAST-CHANGE="2015-07-12T18:10:51.087-04:00">
+          <VALUES>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="The pressure switch shall withstand pressures upto 2 times &lt;&lt;Maximum Working pressure>> with no mechanical or electrical failures.">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_4R-MJCjeEeWM0-PFTmf3uQ</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+          </VALUES>
+          <TYPE>
+            <SPEC-OBJECT-TYPE-REF>_4R-MIyjeEeWM0-PFTmf3uQ</SPEC-OBJECT-TYPE-REF>
+          </TYPE>
+        </SPEC-OBJECT>
+        <SPEC-OBJECT IDENTIFIER="_i-NeICjfEeWM0-PFTmf3uQ" LAST-CHANGE="2015-07-12T17:46:55.689-04:00">
+          <VALUES>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="Next part of the system">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_4R-MJCjeEeWM0-PFTmf3uQ</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+          </VALUES>
+          <TYPE>
+            <SPEC-OBJECT-TYPE-REF>_4R-MIyjeEeWM0-PFTmf3uQ</SPEC-OBJECT-TYPE-REF>
+          </TYPE>
+        </SPEC-OBJECT>
+        <SPEC-OBJECT IDENTIFIER="_lR5_ECjfEeWM0-PFTmf3uQ" LAST-CHANGE="2015-07-12T17:47:18.979-04:00">
+          <VALUES>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="The pressure switch will open or close an electrical contact based on a pressure signal exceeding the set point of the switch.">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_4R-MJCjeEeWM0-PFTmf3uQ</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+          </VALUES>
+          <TYPE>
+            <SPEC-OBJECT-TYPE-REF>_4R-MIyjeEeWM0-PFTmf3uQ</SPEC-OBJECT-TYPE-REF>
+          </TYPE>
+        </SPEC-OBJECT>
+        <SPEC-OBJECT IDENTIFIER="_VNC-4CjgEeWM0-PFTmf3uQ" LAST-CHANGE="2015-07-12T18:02:24.031-04:00">
+          <VALUES>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="The pressure switch shall accept a fluid input pressure input between &lt;&lt;Minimum Working pressure>> and &lt;&lt;Maximum Working pressue>>.">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_4R-MJCjeEeWM0-PFTmf3uQ</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+          </VALUES>
+          <TYPE>
+            <SPEC-OBJECT-TYPE-REF>_4R-MIyjeEeWM0-PFTmf3uQ</SPEC-OBJECT-TYPE-REF>
+          </TYPE>
+        </SPEC-OBJECT>
+        <SPEC-OBJECT IDENTIFIER="_0PeVICjgEeWM0-PFTmf3uQ" LAST-CHANGE="2015-07-12T17:56:04.759-04:00">
+          <VALUES>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="When the fluid pressure is less than &lt;&lt;Set Point>> minus &lt;&lt;tolerence>> the electrical contact shall be open.">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_4R-MJCjeEeWM0-PFTmf3uQ</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+          </VALUES>
+          <TYPE>
+            <SPEC-OBJECT-TYPE-REF>_4R-MIyjeEeWM0-PFTmf3uQ</SPEC-OBJECT-TYPE-REF>
+          </TYPE>
+        </SPEC-OBJECT>
+        <SPEC-OBJECT IDENTIFIER="_Nrn_YCjhEeWM0-PFTmf3uQ" LAST-CHANGE="2015-07-12T17:58:55.673-04:00">
+          <VALUES>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="When the fluid pressure is greater than &lt;&lt;Set Point>> plus &lt;&lt;tolerence>> the electrical contact shall be closed.">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_4R-MJCjeEeWM0-PFTmf3uQ</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+          </VALUES>
+          <TYPE>
+            <SPEC-OBJECT-TYPE-REF>_4R-MIyjeEeWM0-PFTmf3uQ</SPEC-OBJECT-TYPE-REF>
+          </TYPE>
+        </SPEC-OBJECT>
+        <SPEC-OBJECT IDENTIFIER="_XL2YcCjhEeWM0-PFTmf3uQ" LAST-CHANGE="2015-07-12T17:59:56.744-04:00">
+          <VALUES>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="When the fluid pressure is between &lt;&lt;Set Point>> minus &lt;&lt;tolerence>> and &lt;&lt;Set Point>> plus tolerence, the electrical contact shall be open or closed.">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_4R-MJCjeEeWM0-PFTmf3uQ</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+          </VALUES>
+          <TYPE>
+            <SPEC-OBJECT-TYPE-REF>_4R-MIyjeEeWM0-PFTmf3uQ</SPEC-OBJECT-TYPE-REF>
+          </TYPE>
+        </SPEC-OBJECT>
+        <SPEC-OBJECT IDENTIFIER="_1VeecCjhEeWM0-PFTmf3uQ" LAST-CHANGE="2015-07-12T18:03:25.866-04:00">
+          <VALUES>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="The pressure switch shall accept a single electrical input.">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_4R-MJCjeEeWM0-PFTmf3uQ</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+          </VALUES>
+          <TYPE>
+            <SPEC-OBJECT-TYPE-REF>_4R-MIyjeEeWM0-PFTmf3uQ</SPEC-OBJECT-TYPE-REF>
+          </TYPE>
+        </SPEC-OBJECT>
+        <SPEC-OBJECT IDENTIFIER="_961xwCjhEeWM0-PFTmf3uQ" LAST-CHANGE="2015-07-12T18:08:55.470-04:00">
+          <VALUES>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="The pressure switch shall provide a single electrical output.">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_4R-MJCjeEeWM0-PFTmf3uQ</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+          </VALUES>
+          <TYPE>
+            <SPEC-OBJECT-TYPE-REF>_4R-MIyjeEeWM0-PFTmf3uQ</SPEC-OBJECT-TYPE-REF>
+          </TYPE>
+        </SPEC-OBJECT>
+        <SPEC-OBJECT IDENTIFIER="_eMQqsCjiEeWM0-PFTmf3uQ" LAST-CHANGE="2015-07-12T18:08:49.321-04:00">
+          <VALUES>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="When the electrical contact is closed, the input shall be connected to the output.">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_4R-MJCjeEeWM0-PFTmf3uQ</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+          </VALUES>
+          <TYPE>
+            <SPEC-OBJECT-TYPE-REF>_4R-MIyjeEeWM0-PFTmf3uQ</SPEC-OBJECT-TYPE-REF>
+          </TYPE>
+        </SPEC-OBJECT>
+        <SPEC-OBJECT IDENTIFIER="_hi4oQCjiEeWM0-PFTmf3uQ" LAST-CHANGE="2015-07-12T18:08:22.329-04:00">
+          <VALUES>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="When the electical contact is open, the output shall be disconnected from the input. ">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_4R-MJCjeEeWM0-PFTmf3uQ</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+          </VALUES>
+          <TYPE>
+            <SPEC-OBJECT-TYPE-REF>_4R-MIyjeEeWM0-PFTmf3uQ</SPEC-OBJECT-TYPE-REF>
+          </TYPE>
+        </SPEC-OBJECT>
+        <SPEC-OBJECT IDENTIFIER="_5kiDYCjiEeWM0-PFTmf3uQ" LAST-CHANGE="2015-07-12T18:11:03.170-04:00">
+          <VALUES>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="The pressure switch shall withstand electrical voltage upto 100 times &lt;&lt;Maximum Input voltage>> with no electrical failures.">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_4R-MJCjeEeWM0-PFTmf3uQ</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+          </VALUES>
+          <TYPE>
+            <SPEC-OBJECT-TYPE-REF>_4R-MIyjeEeWM0-PFTmf3uQ</SPEC-OBJECT-TYPE-REF>
+          </TYPE>
+        </SPEC-OBJECT>
+        <SPEC-OBJECT IDENTIFIER="_Id0y4CjjEeWM0-PFTmf3uQ" LAST-CHANGE="2015-07-12T18:12:41.010-04:00">
+          <VALUES>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="Failure Modes&#x9;">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_4R-MJCjeEeWM0-PFTmf3uQ</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+          </VALUES>
+          <TYPE>
+            <SPEC-OBJECT-TYPE-REF>_4R-MIyjeEeWM0-PFTmf3uQ</SPEC-OBJECT-TYPE-REF>
+          </TYPE>
+        </SPEC-OBJECT>
+        <SPEC-OBJECT IDENTIFIER="_Ydt-ECjjEeWM0-PFTmf3uQ" LAST-CHANGE="2015-07-12T18:14:27.243-04:00">
+          <VALUES>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="Electrical contacts stuck open">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_4R-MJCjeEeWM0-PFTmf3uQ</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+          </VALUES>
+          <TYPE>
+            <SPEC-OBJECT-TYPE-REF>_4R-MIyjeEeWM0-PFTmf3uQ</SPEC-OBJECT-TYPE-REF>
+          </TYPE>
+        </SPEC-OBJECT>
+        <SPEC-OBJECT IDENTIFIER="_kI0TQCjjEeWM0-PFTmf3uQ" LAST-CHANGE="2015-07-12T18:15:48.710-04:00">
+          <VALUES>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="Electrical contacts stuck closed">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_4R-MJCjeEeWM0-PFTmf3uQ</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+          </VALUES>
+          <TYPE>
+            <SPEC-OBJECT-TYPE-REF>_4R-MIyjeEeWM0-PFTmf3uQ</SPEC-OBJECT-TYPE-REF>
+          </TYPE>
+        </SPEC-OBJECT>
+        <SPEC-OBJECT IDENTIFIER="_rSC_wCjjEeWM0-PFTmf3uQ" LAST-CHANGE="2015-07-12T18:16:37.734-04:00">
+          <VALUES>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="Electrical contacts open too late">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_4R-MJCjeEeWM0-PFTmf3uQ</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+          </VALUES>
+          <TYPE>
+            <SPEC-OBJECT-TYPE-REF>_4R-MIyjeEeWM0-PFTmf3uQ</SPEC-OBJECT-TYPE-REF>
+          </TYPE>
+        </SPEC-OBJECT>
+        <SPEC-OBJECT IDENTIFIER="_15tiACjjEeWM0-PFTmf3uQ" LAST-CHANGE="2015-07-12T18:17:46.418-04:00">
+          <VALUES>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="Electircal contancts open too soon">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_4R-MJCjeEeWM0-PFTmf3uQ</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+          </VALUES>
+          <TYPE>
+            <SPEC-OBJECT-TYPE-REF>_4R-MIyjeEeWM0-PFTmf3uQ</SPEC-OBJECT-TYPE-REF>
+          </TYPE>
+        </SPEC-OBJECT>
+        <SPEC-OBJECT IDENTIFIER="_660EYCjjEeWM0-PFTmf3uQ" LAST-CHANGE="2015-07-12T18:18:22.819-04:00">
+          <VALUES>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="Electrical contacts close too soon">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_4R-MJCjeEeWM0-PFTmf3uQ</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+          </VALUES>
+          <TYPE>
+            <SPEC-OBJECT-TYPE-REF>_4R-MIyjeEeWM0-PFTmf3uQ</SPEC-OBJECT-TYPE-REF>
+          </TYPE>
+        </SPEC-OBJECT>
+        <SPEC-OBJECT IDENTIFIER="_-RcB8CjjEeWM0-PFTmf3uQ" LAST-CHANGE="2015-07-12T18:18:43.387-04:00">
+          <VALUES>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="Electrical contacts close too late">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_4R-MJCjeEeWM0-PFTmf3uQ</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+          </VALUES>
+          <TYPE>
+            <SPEC-OBJECT-TYPE-REF>_4R-MIyjeEeWM0-PFTmf3uQ</SPEC-OBJECT-TYPE-REF>
+          </TYPE>
+        </SPEC-OBJECT>
+        <SPEC-OBJECT IDENTIFIER="_GhFj8CjkEeWM0-PFTmf3uQ" LAST-CHANGE="2015-07-12T18:19:40.973-04:00">
+          <VALUES>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="The electrical contacts shall open or close within 1 milli-second.">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_4R-MJCjeEeWM0-PFTmf3uQ</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+          </VALUES>
+          <TYPE>
+            <SPEC-OBJECT-TYPE-REF>_4R-MIyjeEeWM0-PFTmf3uQ</SPEC-OBJECT-TYPE-REF>
+          </TYPE>
+        </SPEC-OBJECT>
+        <SPEC-OBJECT IDENTIFIER="_UCsHwCjkEeWM0-PFTmf3uQ" LAST-CHANGE="2015-07-12T18:21:10.607-04:00">
+          <VALUES>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="Fluid leak reduces sensor signal pressure">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_4R-MJCjeEeWM0-PFTmf3uQ</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+          </VALUES>
+          <TYPE>
+            <SPEC-OBJECT-TYPE-REF>_4R-MIyjeEeWM0-PFTmf3uQ</SPEC-OBJECT-TYPE-REF>
+          </TYPE>
+        </SPEC-OBJECT>
+        <SPEC-OBJECT IDENTIFIER="_aQ_dECjkEeWM0-PFTmf3uQ" LAST-CHANGE="2015-07-12T18:21:50.371-04:00">
+          <VALUES>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="Fluid leak contaminates electrical contact">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_4R-MJCjeEeWM0-PFTmf3uQ</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+          </VALUES>
+          <TYPE>
+            <SPEC-OBJECT-TYPE-REF>_4R-MIyjeEeWM0-PFTmf3uQ</SPEC-OBJECT-TYPE-REF>
+          </TYPE>
+        </SPEC-OBJECT>
+        <SPEC-OBJECT IDENTIFIER="_eVDIYCjkEeWM0-PFTmf3uQ" LAST-CHANGE="2015-07-12T18:22:18.730-04:00">
+          <VALUES>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="Fluid leak into environment">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_4R-MJCjeEeWM0-PFTmf3uQ</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+          </VALUES>
+          <TYPE>
+            <SPEC-OBJECT-TYPE-REF>_4R-MIyjeEeWM0-PFTmf3uQ</SPEC-OBJECT-TYPE-REF>
+          </TYPE>
+        </SPEC-OBJECT>
+      </SPEC-OBJECTS>
+      <SPECIFICATIONS>
+        <SPECIFICATION IDENTIFIER="_4R-zMijeEeWM0-PFTmf3uQ" LAST-CHANGE="2015-07-12T17:42:22.883-04:00" LONG-NAME="Specification Document">
+          <VALUES>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="Requirements Document">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_4R-MJijeEeWM0-PFTmf3uQ</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+          </VALUES>
+          <TYPE>
+            <SPECIFICATION-TYPE-REF>_4R-MJSjeEeWM0-PFTmf3uQ</SPECIFICATION-TYPE-REF>
+          </TYPE>
+          <CHILDREN>
+            <SPEC-HIERARCHY IDENTIFIER="_4R-zNCjeEeWM0-PFTmf3uQ" LAST-CHANGE="2015-07-12T17:42:22.883-04:00">
+              <OBJECT>
+                <SPEC-OBJECT-REF>_4R-zMCjeEeWM0-PFTmf3uQ</SPEC-OBJECT-REF>
+              </OBJECT>
+              <CHILDREN>
+                <SPEC-HIERARCHY IDENTIFIER="_lTM_kCjfEeWM0-PFTmf3uQ" LAST-CHANGE="2015-07-12T17:47:35.908-04:00">
+                  <OBJECT>
+                    <SPEC-OBJECT-REF>_lR5_ECjfEeWM0-PFTmf3uQ</SPEC-OBJECT-REF>
+                  </OBJECT>
+                </SPEC-HIERARCHY>
+                <SPEC-HIERARCHY IDENTIFIER="_NoKGkCjfEeWM0-PFTmf3uQ" LAST-CHANGE="2015-07-12T17:44:37.324-04:00">
+                  <OBJECT>
+                    <SPEC-OBJECT-REF>_Nm7XgCjfEeWM0-PFTmf3uQ</SPEC-OBJECT-REF>
+                  </OBJECT>
+                  <CHILDREN>
+                    <SPEC-HIERARCHY IDENTIFIER="_VOUxQCjgEeWM0-PFTmf3uQ" LAST-CHANGE="2015-07-12T17:52:30.978-04:00">
+                      <OBJECT>
+                        <SPEC-OBJECT-REF>_VNC-4CjgEeWM0-PFTmf3uQ</SPEC-OBJECT-REF>
+                      </OBJECT>
+                    </SPEC-HIERARCHY>
+                    <SPEC-HIERARCHY IDENTIFIER="_1Ww34CjhEeWM0-PFTmf3uQ" LAST-CHANGE="2015-07-12T18:03:25.866-04:00">
+                      <OBJECT>
+                        <SPEC-OBJECT-REF>_1VeecCjhEeWM0-PFTmf3uQ</SPEC-OBJECT-REF>
+                      </OBJECT>
+                    </SPEC-HIERARCHY>
+                  </CHILDREN>
+                </SPEC-HIERARCHY>
+                <SPEC-HIERARCHY IDENTIFIER="_QrxBgCjfEeWM0-PFTmf3uQ" LAST-CHANGE="2015-07-12T17:44:59.643-04:00">
+                  <OBJECT>
+                    <SPEC-OBJECT-REF>_QqhEUCjfEeWM0-PFTmf3uQ</SPEC-OBJECT-REF>
+                  </OBJECT>
+                  <CHILDREN>
+                    <SPEC-HIERARCHY IDENTIFIER="_0Q0Y8CjgEeWM0-PFTmf3uQ" LAST-CHANGE="2015-07-12T17:56:04.759-04:00">
+                      <OBJECT>
+                        <SPEC-OBJECT-REF>_0PeVICjgEeWM0-PFTmf3uQ</SPEC-OBJECT-REF>
+                      </OBJECT>
+                    </SPEC-HIERARCHY>
+                    <SPEC-HIERARCHY IDENTIFIER="_Ns2HYCjhEeWM0-PFTmf3uQ" LAST-CHANGE="2015-07-12T17:58:55.673-04:00">
+                      <OBJECT>
+                        <SPEC-OBJECT-REF>_Nrn_YCjhEeWM0-PFTmf3uQ</SPEC-OBJECT-REF>
+                      </OBJECT>
+                    </SPEC-HIERARCHY>
+                    <SPEC-HIERARCHY IDENTIFIER="_XNL1MCjhEeWM0-PFTmf3uQ" LAST-CHANGE="2015-07-12T17:59:56.744-04:00">
+                      <OBJECT>
+                        <SPEC-OBJECT-REF>_XL2YcCjhEeWM0-PFTmf3uQ</SPEC-OBJECT-REF>
+                      </OBJECT>
+                    </SPEC-HIERARCHY>
+                    <SPEC-HIERARCHY IDENTIFIER="_GiVhICjkEeWM0-PFTmf3uQ" LAST-CHANGE="2015-07-12T18:19:40.973-04:00">
+                      <OBJECT>
+                        <SPEC-OBJECT-REF>_GhFj8CjkEeWM0-PFTmf3uQ</SPEC-OBJECT-REF>
+                      </OBJECT>
+                    </SPEC-HIERARCHY>
+                  </CHILDREN>
+                </SPEC-HIERARCHY>
+                <SPEC-HIERARCHY IDENTIFIER="_TWfiYCjfEeWM0-PFTmf3uQ" LAST-CHANGE="2015-07-12T17:45:20.430-04:00">
+                  <OBJECT>
+                    <SPEC-OBJECT-REF>_TVKssCjfEeWM0-PFTmf3uQ</SPEC-OBJECT-REF>
+                  </OBJECT>
+                  <CHILDREN>
+                    <SPEC-HIERARCHY IDENTIFIER="_98IyQCjhEeWM0-PFTmf3uQ" LAST-CHANGE="2015-07-12T18:04:13.524-04:00">
+                      <OBJECT>
+                        <SPEC-OBJECT-REF>_961xwCjhEeWM0-PFTmf3uQ</SPEC-OBJECT-REF>
+                      </OBJECT>
+                    </SPEC-HIERARCHY>
+                    <SPEC-HIERARCHY IDENTIFIER="_eNgn4CjiEeWM0-PFTmf3uQ" LAST-CHANGE="2015-07-12T18:07:57.309-04:00">
+                      <OBJECT>
+                        <SPEC-OBJECT-REF>_eMQqsCjiEeWM0-PFTmf3uQ</SPEC-OBJECT-REF>
+                      </OBJECT>
+                    </SPEC-HIERARCHY>
+                    <SPEC-HIERARCHY IDENTIFIER="_hkH-YCjiEeWM0-PFTmf3uQ" LAST-CHANGE="2015-07-12T18:08:22.330-04:00">
+                      <OBJECT>
+                        <SPEC-OBJECT-REF>_hi4oQCjiEeWM0-PFTmf3uQ</SPEC-OBJECT-REF>
+                      </OBJECT>
+                    </SPEC-HIERARCHY>
+                  </CHILDREN>
+                </SPEC-HIERARCHY>
+                <SPEC-HIERARCHY IDENTIFIER="_Y8h90CjfEeWM0-PFTmf3uQ" LAST-CHANGE="2015-07-12T17:45:56.623-04:00">
+                  <OBJECT>
+                    <SPEC-OBJECT-REF>_Y7Kr4CjfEeWM0-PFTmf3uQ</SPEC-OBJECT-REF>
+                  </OBJECT>
+                  <CHILDREN>
+                    <SPEC-HIERARCHY IDENTIFIER="_e-2soCjfEeWM0-PFTmf3uQ" LAST-CHANGE="2015-07-12T17:46:32.785-04:00">
+                      <OBJECT>
+                        <SPEC-OBJECT-REF>_e9ieACjfEeWM0-PFTmf3uQ</SPEC-OBJECT-REF>
+                      </OBJECT>
+                    </SPEC-HIERARCHY>
+                    <SPEC-HIERARCHY IDENTIFIER="_5l2SACjiEeWM0-PFTmf3uQ" LAST-CHANGE="2015-07-12T18:11:03.170-04:00">
+                      <OBJECT>
+                        <SPEC-OBJECT-REF>_5kiDYCjiEeWM0-PFTmf3uQ</SPEC-OBJECT-REF>
+                      </OBJECT>
+                    </SPEC-HIERARCHY>
+                  </CHILDREN>
+                </SPEC-HIERARCHY>
+                <SPEC-HIERARCHY IDENTIFIER="_IfF-MCjjEeWM0-PFTmf3uQ" LAST-CHANGE="2015-07-12T18:12:41.010-04:00">
+                  <OBJECT>
+                    <SPEC-OBJECT-REF>_Id0y4CjjEeWM0-PFTmf3uQ</SPEC-OBJECT-REF>
+                  </OBJECT>
+                  <CHILDREN>
+                    <SPEC-HIERARCHY IDENTIFIER="_Ye97QCjjEeWM0-PFTmf3uQ" LAST-CHANGE="2015-07-12T18:14:27.243-04:00">
+                      <OBJECT>
+                        <SPEC-OBJECT-REF>_Ydt-ECjjEeWM0-PFTmf3uQ</SPEC-OBJECT-REF>
+                      </OBJECT>
+                    </SPEC-HIERARCHY>
+                    <SPEC-HIERARCHY IDENTIFIER="_kKGssCjjEeWM0-PFTmf3uQ" LAST-CHANGE="2015-07-12T18:15:48.710-04:00">
+                      <OBJECT>
+                        <SPEC-OBJECT-REF>_kI0TQCjjEeWM0-PFTmf3uQ</SPEC-OBJECT-REF>
+                      </OBJECT>
+                    </SPEC-HIERARCHY>
+                    <SPEC-HIERARCHY IDENTIFIER="_rTTkACjjEeWM0-PFTmf3uQ" LAST-CHANGE="2015-07-12T18:16:37.734-04:00">
+                      <OBJECT>
+                        <SPEC-OBJECT-REF>_rSC_wCjjEeWM0-PFTmf3uQ</SPEC-OBJECT-REF>
+                      </OBJECT>
+                    </SPEC-HIERARCHY>
+                    <SPEC-HIERARCHY IDENTIFIER="_1684ICjjEeWM0-PFTmf3uQ" LAST-CHANGE="2015-07-12T18:17:46.418-04:00">
+                      <OBJECT>
+                        <SPEC-OBJECT-REF>_15tiACjjEeWM0-PFTmf3uQ</SPEC-OBJECT-REF>
+                      </OBJECT>
+                    </SPEC-HIERARCHY>
+                    <SPEC-HIERARCHY IDENTIFIER="_68v-ECjjEeWM0-PFTmf3uQ" LAST-CHANGE="2015-07-12T18:18:22.819-04:00">
+                      <OBJECT>
+                        <SPEC-OBJECT-REF>_660EYCjjEeWM0-PFTmf3uQ</SPEC-OBJECT-REF>
+                      </OBJECT>
+                    </SPEC-HIERARCHY>
+                    <SPEC-HIERARCHY IDENTIFIER="_-SubYCjjEeWM0-PFTmf3uQ" LAST-CHANGE="2015-07-12T18:18:43.387-04:00">
+                      <OBJECT>
+                        <SPEC-OBJECT-REF>_-RcB8CjjEeWM0-PFTmf3uQ</SPEC-OBJECT-REF>
+                      </OBJECT>
+                    </SPEC-HIERARCHY>
+                    <SPEC-HIERARCHY IDENTIFIER="_UEA9cCjkEeWM0-PFTmf3uQ" LAST-CHANGE="2015-07-12T18:21:10.607-04:00">
+                      <OBJECT>
+                        <SPEC-OBJECT-REF>_UCsHwCjkEeWM0-PFTmf3uQ</SPEC-OBJECT-REF>
+                      </OBJECT>
+                    </SPEC-HIERARCHY>
+                    <SPEC-HIERARCHY IDENTIFIER="_aSTEoCjkEeWM0-PFTmf3uQ" LAST-CHANGE="2015-07-12T18:21:50.371-04:00">
+                      <OBJECT>
+                        <SPEC-OBJECT-REF>_aQ_dECjkEeWM0-PFTmf3uQ</SPEC-OBJECT-REF>
+                      </OBJECT>
+                    </SPEC-HIERARCHY>
+                    <SPEC-HIERARCHY IDENTIFIER="_eWU6wCjkEeWM0-PFTmf3uQ" LAST-CHANGE="2015-07-12T18:22:18.730-04:00">
+                      <OBJECT>
+                        <SPEC-OBJECT-REF>_eVDIYCjkEeWM0-PFTmf3uQ</SPEC-OBJECT-REF>
+                      </OBJECT>
+                    </SPEC-HIERARCHY>
+                  </CHILDREN>
+                </SPEC-HIERARCHY>
+              </CHILDREN>
+            </SPEC-HIERARCHY>
+            <SPEC-HIERARCHY IDENTIFIER="_i_f3kCjfEeWM0-PFTmf3uQ" LAST-CHANGE="2015-07-12T17:47:13.834-04:00">
+              <OBJECT>
+                <SPEC-OBJECT-REF>_i-NeICjfEeWM0-PFTmf3uQ</SPEC-OBJECT-REF>
+              </OBJECT>
+            </SPEC-HIERARCHY>
+          </CHILDREN>
+        </SPECIFICATION>
+      </SPECIFICATIONS>
+    </REQ-IF-CONTENT>
+  </CORE-CONTENT>
+  <TOOL-EXTENSIONS>
+    <REQ-IF-TOOL-EXTENSION>
+      <configuration:ProrToolExtension>
+        <configuration:specViewConfigurations>
+          <configuration:ProrSpecViewConfiguration specification="_4R-zMijeEeWM0-PFTmf3uQ">
+            <configuration:columns>
+              <configuration:Column label="Description" width="400"/>
+            </configuration:columns>
+            <configuration:leftHeaderColumn>
+              <configuration:Column label="Lead Header Column" width="30"/>
+            </configuration:leftHeaderColumn>
+          </configuration:ProrSpecViewConfiguration>
+        </configuration:specViewConfigurations>
+        <configuration:generalConfiguration>
+          <configuration:ProrGeneralConfiguration>
+            <configuration:labelConfiguration>
+              <configuration:LabelConfiguration>
+                <defaultLabel>Description</defaultLabel>
+              </configuration:LabelConfiguration>
+            </configuration:labelConfiguration>
+          </configuration:ProrGeneralConfiguration>
+        </configuration:generalConfiguration>
+      </configuration:ProrToolExtension>
+    </REQ-IF-TOOL-EXTENSION>
+  </TOOL-EXTENSIONS>
+</REQ-IF>
