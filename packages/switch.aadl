@@ -1,7 +1,7 @@
 package switch
 public
 
-with EMV2;
+--with EMV2;
 
 system switch
 	features
@@ -12,8 +12,8 @@ system switch
 		signalFlowPath  : flow path signalIn -> signalOut;	
 
 	annex EMV2 {**
-		use types errorLibrary;
-		use behavior errorLibrary::FailStop;
+--		use types errorLibrary;
+--	use behavior errorLibrary::FailStop;
 		component error behavior
 			events
 				Failure : error event {serviceOmission};

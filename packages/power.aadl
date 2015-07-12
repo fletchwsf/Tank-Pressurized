@@ -1,7 +1,6 @@
 package power
 public
 
-with base_types;
 
 bus power
 	features

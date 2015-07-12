@@ -7,7 +7,7 @@ abstract tank_generic
 		outFlowPort : requires bus access;
 		
 	annex EMV2 {**
-		use types errorLibrary;
+--		use types errorLibrary;
 		use behavior tank::errorModelLibrary_tanks;
 		component error behavior
 			events

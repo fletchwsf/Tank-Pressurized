@@ -1,8 +1,6 @@
 package relay
 public
 
-with Base_Types;
-with EMV2;
 
 -- Abstract relay with logical inputs and outputs
 abstract relay
@@ -13,8 +11,8 @@ abstract relay
 		contactsOut : in event port;
 	
 	annex EMV2 {**
-		use types errorLibrary;
-		use behavior errorLibrary::FailStop;
+--		use types errorLibrary;
+--	use behavior errorLibrary::FailStop;
 		component error behavior
 			events
 				Failure : error event {serviceOmission};
