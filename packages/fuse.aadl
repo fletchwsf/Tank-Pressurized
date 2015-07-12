@@ -1,14 +1,13 @@
 package fuse
 public
-
-with base_types;
+	
 
 system fuse
 	features
-		powerIn : requires bus access;
-		powerOut : out data port Base_Types::Boolean;
-	--flows
-		--powerOnFlowPath  : flow path powerIn -> powerOut;
+		powerIn : in data port;
+		powerOut : out data port;
+	flows
+		powerOnFlowPath  : flow path powerIn -> powerOut;
 end fuse;
 
 system implementation fuse.i
