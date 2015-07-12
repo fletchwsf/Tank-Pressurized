@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <REQ-IF xmlns="http://www.omg.org/spec/ReqIF/20110401/reqif.xsd" xmlns:configuration="http://eclipse.org/rmf/pror/toolextensions/1.0">
   <THE-HEADER>
-    <REQ-IF-HEADER IDENTIFIER="rmf-5bdba589-a9ba-4954-aeda-f6d285130786">
+    <REQ-IF-HEADER IDENTIFIER="rmf-aec68453-a30c-41e5-ab91-652b791af95f">
       <COMMENT>Created by: Will</COMMENT>
       <CREATION-TIME>2015-07-12T17:42:22.883-04:00</CREATION-TIME>
       <REQ-IF-TOOL-ID>ProR (http://pror.org)</REQ-IF-TOOL-ID>
@@ -107,9 +107,9 @@
             <SPEC-OBJECT-TYPE-REF>_4R-MIyjeEeWM0-PFTmf3uQ</SPEC-OBJECT-TYPE-REF>
           </TYPE>
         </SPEC-OBJECT>
-        <SPEC-OBJECT IDENTIFIER="_i-NeICjfEeWM0-PFTmf3uQ" LAST-CHANGE="2015-07-12T17:46:55.689-04:00">
+        <SPEC-OBJECT IDENTIFIER="_i-NeICjfEeWM0-PFTmf3uQ" LAST-CHANGE="2015-07-12T18:27:48.867-04:00">
           <VALUES>
-            <ATTRIBUTE-VALUE-STRING THE-VALUE="Next part of the system">
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="Start Switch">
               <DEFINITION>
                 <ATTRIBUTE-DEFINITION-STRING-REF>_4R-MJCjeEeWM0-PFTmf3uQ</ATTRIBUTE-DEFINITION-STRING-REF>
               </DEFINITION>
@@ -371,6 +371,66 @@
             <SPEC-OBJECT-TYPE-REF>_4R-MIyjeEeWM0-PFTmf3uQ</SPEC-OBJECT-TYPE-REF>
           </TYPE>
         </SPEC-OBJECT>
+        <SPEC-OBJECT IDENTIFIER="_QxzwYCjlEeWM0-PFTmf3uQ" LAST-CHANGE="2015-07-12T18:27:59.174-04:00">
+          <VALUES>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="Pressure tank">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_4R-MJCjeEeWM0-PFTmf3uQ</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+          </VALUES>
+          <TYPE>
+            <SPEC-OBJECT-TYPE-REF>_4R-MIyjeEeWM0-PFTmf3uQ</SPEC-OBJECT-TYPE-REF>
+          </TYPE>
+        </SPEC-OBJECT>
+        <SPEC-OBJECT IDENTIFIER="_TAZu4CjlEeWM0-PFTmf3uQ" LAST-CHANGE="2015-07-12T18:28:19.277-04:00">
+          <VALUES>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="Valve-Outlet">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_4R-MJCjeEeWM0-PFTmf3uQ</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+          </VALUES>
+          <TYPE>
+            <SPEC-OBJECT-TYPE-REF>_4R-MIyjeEeWM0-PFTmf3uQ</SPEC-OBJECT-TYPE-REF>
+          </TYPE>
+        </SPEC-OBJECT>
+        <SPEC-OBJECT IDENTIFIER="_WB9bYCjlEeWM0-PFTmf3uQ" LAST-CHANGE="2015-07-12T18:28:39.574-04:00">
+          <VALUES>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="Pump">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_4R-MJCjeEeWM0-PFTmf3uQ</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+          </VALUES>
+          <TYPE>
+            <SPEC-OBJECT-TYPE-REF>_4R-MIyjeEeWM0-PFTmf3uQ</SPEC-OBJECT-TYPE-REF>
+          </TYPE>
+        </SPEC-OBJECT>
+        <SPEC-OBJECT IDENTIFIER="_ZMKtkCjlEeWM0-PFTmf3uQ" LAST-CHANGE="2015-07-12T18:29:00.777-04:00">
+          <VALUES>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="Motor">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_4R-MJCjeEeWM0-PFTmf3uQ</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+          </VALUES>
+          <TYPE>
+            <SPEC-OBJECT-TYPE-REF>_4R-MIyjeEeWM0-PFTmf3uQ</SPEC-OBJECT-TYPE-REF>
+          </TYPE>
+        </SPEC-OBJECT>
+        <SPEC-OBJECT IDENTIFIER="_ayJM4CjlEeWM0-PFTmf3uQ" LAST-CHANGE="2015-07-12T18:29:11.470-04:00">
+          <VALUES>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="Timer relay">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_4R-MJCjeEeWM0-PFTmf3uQ</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+          </VALUES>
+          <TYPE>
+            <SPEC-OBJECT-TYPE-REF>_4R-MIyjeEeWM0-PFTmf3uQ</SPEC-OBJECT-TYPE-REF>
+          </TYPE>
+        </SPEC-OBJECT>
       </SPEC-OBJECTS>
       <SPECIFICATIONS>
         <SPECIFICATION IDENTIFIER="_4R-zMijeEeWM0-PFTmf3uQ" LAST-CHANGE="2015-07-12T17:42:22.883-04:00" LONG-NAME="Specification Document">
@@ -535,6 +595,31 @@
             <SPEC-HIERARCHY IDENTIFIER="_i_f3kCjfEeWM0-PFTmf3uQ" LAST-CHANGE="2015-07-12T17:47:13.834-04:00">
               <OBJECT>
                 <SPEC-OBJECT-REF>_i-NeICjfEeWM0-PFTmf3uQ</SPEC-OBJECT-REF>
+              </OBJECT>
+            </SPEC-HIERARCHY>
+            <SPEC-HIERARCHY IDENTIFIER="_QzdWMCjlEeWM0-PFTmf3uQ" LAST-CHANGE="2015-07-12T18:27:59.174-04:00">
+              <OBJECT>
+                <SPEC-OBJECT-REF>_QxzwYCjlEeWM0-PFTmf3uQ</SPEC-OBJECT-REF>
+              </OBJECT>
+            </SPEC-HIERARCHY>
+            <SPEC-HIERARCHY IDENTIFIER="_TBxn4CjlEeWM0-PFTmf3uQ" LAST-CHANGE="2015-07-12T18:28:19.278-04:00">
+              <OBJECT>
+                <SPEC-OBJECT-REF>_TAZu4CjlEeWM0-PFTmf3uQ</SPEC-OBJECT-REF>
+              </OBJECT>
+            </SPEC-HIERARCHY>
+            <SPEC-HIERARCHY IDENTIFIER="_WDXJkCjlEeWM0-PFTmf3uQ" LAST-CHANGE="2015-07-12T18:28:39.574-04:00">
+              <OBJECT>
+                <SPEC-OBJECT-REF>_WB9bYCjlEeWM0-PFTmf3uQ</SPEC-OBJECT-REF>
+              </OBJECT>
+            </SPEC-HIERARCHY>
+            <SPEC-HIERARCHY IDENTIFIER="_ZNkbwCjlEeWM0-PFTmf3uQ" LAST-CHANGE="2015-07-12T18:29:00.777-04:00">
+              <OBJECT>
+                <SPEC-OBJECT-REF>_ZMKtkCjlEeWM0-PFTmf3uQ</SPEC-OBJECT-REF>
+              </OBJECT>
+            </SPEC-HIERARCHY>
+            <SPEC-HIERARCHY IDENTIFIER="_azi7ECjlEeWM0-PFTmf3uQ" LAST-CHANGE="2015-07-12T18:29:11.470-04:00">
+              <OBJECT>
+                <SPEC-OBJECT-REF>_ayJM4CjlEeWM0-PFTmf3uQ</SPEC-OBJECT-REF>
               </OBJECT>
             </SPEC-HIERARCHY>
           </CHILDREN>
