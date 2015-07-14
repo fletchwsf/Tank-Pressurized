@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <REQ-IF xmlns="http://www.omg.org/spec/ReqIF/20110401/reqif.xsd" xmlns:configuration="http://eclipse.org/rmf/pror/toolextensions/1.0">
   <THE-HEADER>
-    <REQ-IF-HEADER IDENTIFIER="rmf-63d88c00-3d57-431d-9548-21bbc52842ec">
+    <REQ-IF-HEADER IDENTIFIER="rmf-4d08b1aa-48d7-42b4-9228-fcb93fd2e7f6">
       <COMMENT>Created by: Will</COMMENT>
       <CREATION-TIME>2015-07-12T17:42:22.883-04:00</CREATION-TIME>
       <REQ-IF-TOOL-ID>ProR (http://pror.org)</REQ-IF-TOOL-ID>
@@ -17,22 +17,13 @@
       <SPEC-TYPES>
         <SPEC-OBJECT-TYPE IDENTIFIER="_4R-MIyjeEeWM0-PFTmf3uQ" LAST-CHANGE="2015-07-12T17:42:22.883-04:00" LONG-NAME="Requirement Type">
           <SPEC-ATTRIBUTES>
-            <ATTRIBUTE-DEFINITION-STRING IDENTIFIER="_4R-MJCjeEeWM0-PFTmf3uQ" LAST-CHANGE="2015-07-12T17:42:22.883-04:00" LONG-NAME="Description">
+            <ATTRIBUTE-DEFINITION-STRING IDENTIFIER="_4R-MJCjeEeWM0-PFTmf3uQ" LAST-CHANGE="2015-07-12T17:42:22.883-04:00" LONG-NAME="Description" IS-EDITABLE="true">
               <TYPE>
                 <DATATYPE-DEFINITION-STRING-REF>_4R-MIijeEeWM0-PFTmf3uQ</DATATYPE-DEFINITION-STRING-REF>
               </TYPE>
             </ATTRIBUTE-DEFINITION-STRING>
           </SPEC-ATTRIBUTES>
         </SPEC-OBJECT-TYPE>
-        <SPECIFICATION-TYPE IDENTIFIER="_4R-MJSjeEeWM0-PFTmf3uQ" LAST-CHANGE="2015-07-12T17:42:22.883-04:00" LONG-NAME="Specification Type">
-          <SPEC-ATTRIBUTES>
-            <ATTRIBUTE-DEFINITION-STRING IDENTIFIER="_4R-MJijeEeWM0-PFTmf3uQ" LAST-CHANGE="2015-07-12T17:42:22.883-04:00" LONG-NAME="Description">
-              <TYPE>
-                <DATATYPE-DEFINITION-STRING-REF>_4R-MIijeEeWM0-PFTmf3uQ</DATATYPE-DEFINITION-STRING-REF>
-              </TYPE>
-            </ATTRIBUTE-DEFINITION-STRING>
-          </SPEC-ATTRIBUTES>
-        </SPECIFICATION-TYPE>
       </SPEC-TYPES>
       <SPEC-OBJECTS>
         <SPEC-OBJECT IDENTIFIER="_4R-zMCjeEeWM0-PFTmf3uQ" LAST-CHANGE="2015-07-12T17:44:37.294-04:00">
@@ -571,16 +562,7 @@
       </SPEC-OBJECTS>
       <SPECIFICATIONS>
         <SPECIFICATION IDENTIFIER="_4R-zMijeEeWM0-PFTmf3uQ" LAST-CHANGE="2015-07-12T17:42:22.883-04:00" LONG-NAME="Specification Document">
-          <VALUES>
-            <ATTRIBUTE-VALUE-STRING THE-VALUE="Requirements Document">
-              <DEFINITION>
-                <ATTRIBUTE-DEFINITION-STRING-REF>_4R-MJijeEeWM0-PFTmf3uQ</ATTRIBUTE-DEFINITION-STRING-REF>
-              </DEFINITION>
-            </ATTRIBUTE-VALUE-STRING>
-          </VALUES>
-          <TYPE>
-            <SPECIFICATION-TYPE-REF>_4R-MJSjeEeWM0-PFTmf3uQ</SPECIFICATION-TYPE-REF>
-          </TYPE>
+          <VALUES/>
           <CHILDREN>
             <SPEC-HIERARCHY IDENTIFIER="_4R-zNCjeEeWM0-PFTmf3uQ" LAST-CHANGE="2015-07-12T17:42:22.883-04:00">
               <OBJECT>
@@ -823,7 +805,10 @@
         <configuration:specViewConfigurations>
           <configuration:ProrSpecViewConfiguration specification="_4R-zMijeEeWM0-PFTmf3uQ">
             <configuration:columns>
-              <configuration:Column label="Description" width="400"/>
+              <configuration:Column label="ID" width="109"/>
+              <configuration:Column label="Description" width="217"/>
+              <configuration:Column label="Type" width="99"/>
+              <configuration:Column label="Rational" width="200"/>
             </configuration:columns>
             <configuration:leftHeaderColumn>
               <configuration:Column label="Lead Header Column" width="30"/>
